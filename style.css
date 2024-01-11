@@ -313,3 +313,10 @@ input {
     margin-top: -95px;
     margin-bottom: 100px;
   }
+  .w-layout-grid {
+    grid-template-rows: auto auto;
+    display: flex;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+  
+  }

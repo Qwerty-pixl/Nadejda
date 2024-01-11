@@ -406,3 +406,8 @@ input {
     align-items: flex-end;
     display: flex;
   }
+  .why-brella__graph-text {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  

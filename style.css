@@ -232,4 +232,9 @@ h2 {
     display: none;
     position: absolute;
   }
-  
+  .hero__search-link {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+  }

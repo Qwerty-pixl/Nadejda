@@ -105,3 +105,15 @@ body {
     width: 75px;
     height: 22px;
 }
+.hero {
+    height: 90vh;
+    background-image: url(/img/backround.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 120px;
+    display: flex;
+  }

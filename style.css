@@ -126,6 +126,14 @@ body {
     flex-direction: column;
     display: flex;
 }
+
 .hero__heading {
     width: auto;
-  }
+}
+
+.hero__search {
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+}

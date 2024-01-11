@@ -330,3 +330,9 @@ input {
     border-radius: 6px;
     padding: 50px;
   }
+  .usps__block {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 2px;
+    display: flex;
+  }

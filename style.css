@@ -117,3 +117,9 @@ body {
     padding-bottom: 120px;
     display: flex;
   }
+  .home-hero__content {
+    width: 55%;
+    flex-direction: column;
+    display: flex;
+  }
+  

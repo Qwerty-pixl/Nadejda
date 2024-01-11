@@ -137,3 +137,15 @@ body {
     align-items: center;
     display: flex;
 }
+.hero__heading-text {
+    margin-bottom: 40px;
+    margin-right: 100px;
+    padding-right: 0;
+    color: #214E41;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    /* 127.778% */
+  }

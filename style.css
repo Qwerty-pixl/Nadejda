@@ -201,3 +201,11 @@ h2 {
     padding-right: 40px;
     display: inline-block;
   }
+  .hero__toggle {
+    width: 100%;
+  }
+  
+  .hero__toggle-icon {
+    padding-left: 0;
+    display: block;
+  }

@@ -12,3 +12,9 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+.topbar {
+    background-color: white;
+    padding: 30px 45px;
+    display: flex;
+  }
+  

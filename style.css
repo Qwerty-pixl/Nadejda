@@ -349,4 +349,14 @@ input {
     margin-top: 100px;
     margin-bottom: 120px;
   }
+  .why-brella__grid {
+    width: 100%;
+    grid-column-gap: 60px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: stretch;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
   

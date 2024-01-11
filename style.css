@@ -76,19 +76,3 @@ body {
     border: 0;
     cursor: pointer;
 }
-
-.nav,
-.nav-button,
-.language,
-.login {
-    display: none;
-}
-
-.drop:hover .nav {
-    display: block;
-    position: absolute;
-    right: 7px;
-    top: 10px;
-    background-color: white;
-    box-shadow: 3px 3px 10px black;
-}

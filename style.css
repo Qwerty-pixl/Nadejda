@@ -431,4 +431,12 @@ input {
     font-size: 70px;
     line-height: 90px;
   }
+  .why-brella__graph-line {
+    z-index: 999;
+    width: 200%;
+    height: 2px;
+    background: #F0A446;
+    display: flex;
+    position: absolute;
+  }
   

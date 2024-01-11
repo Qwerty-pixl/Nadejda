@@ -312,6 +312,8 @@ input {
 .usps {
     margin-top: -95px;
     margin-bottom: 100px;
+    box-shadow: 1px 1px 4px 0px rgba(232, 230, 230, 0.60);
+
   }
   .w-layout-grid {
     grid-template-rows: auto auto;
@@ -326,7 +328,7 @@ input {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
-    box-shadow: rgba(232, 230, 230, 0.6) 1px 1px 4px;
+    box-shadow: rgba(208, 194, 194, 0.6) 1px 1px 4px;
     border-radius: 6px;
     padding: 50px;
   }

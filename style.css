@@ -468,4 +468,57 @@ input {
     font-weight: 600;
     line-height: 22px;
   }
+  .w-row .w-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
   
+  .why-brella__bars-column {
+    align-items: flex-end;
+    display: flex;
+  }
+  
+  .w-col .w-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .why-brella__bar-left {
+    padding-right: 20px;
+  }
+  .why-brella__bar-text {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  
+  .why-brella__short {
+    height: 150px;
+    background-color: #43806c;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 0;
+  }
+  
+  .why-brella__short {
+    width: 130px;
+    height: 10px;
+    background-color: #43806c;
+    transition: width 10s cubic-bezier(0, 0, 1, 1) 1000ms;
+    transition: 3s;
+  }
+  
+  .why-brella__short:hover {
+    height: 150px;
+  }
+  
+  
+  .why-brella__tall {
+    width: 130px;
+    height: 10px;
+    background-color: #43806c;
+    transition: width 10s cubic-bezier(0, 0, 1, 1) 1000ms;
+    transition: 3s;
+  }

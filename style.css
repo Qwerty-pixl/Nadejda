@@ -222,3 +222,14 @@ h2 {
   .hero__toggle-text {
     padding-right: 0;
   }
+  .hero__dropdown-list {
+    background-color: transparent;
+  }
+  
+  .w-dropdown-list {
+    min-width: 100%;
+    background: #ddd;
+    display: none;
+    position: absolute;
+  }
+  

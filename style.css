@@ -379,4 +379,6 @@ input {
     margin-bottom: 20px;
     font-weight: 600;
   }
-  
+  .why-brella__text {
+    color: var(--grey);
+  }

@@ -366,4 +366,10 @@ input {
     grid-auto-columns: 1fr;
   
   }
+  .why-brella__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+  }
   

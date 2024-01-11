@@ -414,4 +414,7 @@ input {
     margin-bottom: 45px;
     padding-right: 20px;
   }
+  .w-col-6 {
+    width: 50%;
+  }
   

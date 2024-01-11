@@ -93,3 +93,8 @@ body {
     line-height: 20px;
     color: #214E41;
 }
+.logo_img {
+    margin-right: auto;
+    width: 75px;
+    height: 22px;
+}

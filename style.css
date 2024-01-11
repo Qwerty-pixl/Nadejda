@@ -27,3 +27,8 @@ body {
     margin: 0;
     list-style: none;
 }
+.logo {
+    margin-right: auto;
+    width: 75px;
+    height: 22px;
+  }

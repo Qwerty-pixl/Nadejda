@@ -76,3 +76,9 @@ body {
     border: 0;
     cursor: pointer;
 }
+.nav,
+  .nav-button,
+  .language,
+  .login {
+    display: none;
+  }

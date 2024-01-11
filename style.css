@@ -372,4 +372,11 @@ input {
     align-items: flex-start;
     display: flex;
   }
+  .pre-header {
+    color: var(--eucalyptus);
+    letter-spacing: .05px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
   

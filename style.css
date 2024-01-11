@@ -149,3 +149,12 @@ body {
     line-height: 46px;
     /* 127.778% */
   }
+  h1,
+h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: Euclid circular a, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+}

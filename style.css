@@ -295,11 +295,10 @@ input {
     border-radius: 6px;
 }
 
-button {
+.button {
     width: 123px;
     height: 60px;
     flex-shrink: 0;
-    position: absolute;
     top: 0px;
     right: 0px;
     cursor: pointer;

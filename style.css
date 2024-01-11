@@ -359,4 +359,11 @@ input {
     padding-left: 60px;
     padding-right: 60px;
   }
+  .w-layout-grid {
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-auto-columns: 1fr;
+  
+  }
   

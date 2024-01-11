@@ -309,3 +309,7 @@ input {
     border-radius: 0px 6px 6px 0px;
     background: rgb(67, 128, 108);
 }
+.usps {
+    margin-top: -95px;
+    margin-bottom: 100px;
+  }

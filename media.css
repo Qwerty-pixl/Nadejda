@@ -1,12 +1,44 @@
-@media screen and (max-width: 1144px)
-        {
-        .topbar .nav-btn {
-            font-size: 2em;
-            padding-inline: 10px;
-            padding-bottom: 3px;
-            border: none;
-            background-color: white;
-            display: block;
-            cursor: pointer;
-        }
+@media screen and (max-width: 1144px) {
+    .topbar .nav-btn {
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 3px;
+        border: none;
+        background-color: white;
+        display: block;
+        cursor: pointer;
     }
+
+    .nav,
+    .nav-button,
+    .language,
+    .login {
+        display: none;
+    }
+
+    .drop:hover .nav {
+        display: block;
+        position: absolute;
+        right: 7px;
+        top: 10px;
+        background-color: white;
+        box-shadow: 3px 3px 10px black;
+    }
+
+    .topbar {
+        justify-content: space-between;
+    }
+
+    .topbar .nav-button {
+        margin: 0 20px 0 35px;
+        padding: 10px 14px;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+        color: white;
+        background-color: #43806c;
+        border-radius: 6px;
+        border: 0;
+    }
+
+}

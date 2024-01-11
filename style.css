@@ -137,6 +137,7 @@ body {
     align-items: center;
     display: flex;
 }
+
 .hero__heading-text {
     margin-bottom: 40px;
     margin-right: 100px;
@@ -148,13 +149,27 @@ body {
     font-weight: 700;
     line-height: 46px;
     /* 127.778% */
-  }
-  h1,
-h2 {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-family: Euclid circular a, sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 46px;
 }
+
+h1,
+h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: Euclid circular a, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.hero__subheading-text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #214E41;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+  }

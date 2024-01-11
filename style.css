@@ -320,3 +320,13 @@ input {
     grid-column-gap: 16px;
   
   }
+  .usps__grid {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: rgba(232, 230, 230, 0.6) 1px 1px 4px;
+    border-radius: 6px;
+    padding: 50px;
+  }

@@ -395,4 +395,11 @@ input {
     font-size: 18px;
     line-height: 18px;
   }
+  .why-brella__graph {
+    min-height: 432px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+  }
   

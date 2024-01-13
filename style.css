@@ -120,7 +120,7 @@ body {
 
 .hero {
     height: 90vh;
-    background-image: url(/img/backround.jpg);
+    background-image: url(./img/backround.jpg);
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -325,6 +325,7 @@ input {
     box-shadow: 1px 1px 4px 0px rgba(232, 230, 230, 0.60);
 
 }
+
 
 .w-layout-grid {
     grid-template-rows: auto auto;
@@ -1123,64 +1124,154 @@ span {
     object-fit: cover;
 }
 
-.footer {
-    background: #214E41;
-    text-align: center;
-    align-items: flex-start;
-    padding-top: 100px;
-    padding-bottom: 50px;
+
+footer {
+    background-color: #214E41;
 }
-.footer__grid {
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
+
+footer .content {
+    max-width: 1200px;
+    margin: 0 auto;
 }
-.footer__logo-div {
-    justify-content: flex-start;
-    align-items: flex-start;
+
+footer .box-1 {
     display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    border-bottom: 1px solid white;
+    flex-wrap: wrap;
 }
-.footer__content {
-    width: 100%;
-    border-bottom: 1px solid #fff;
-    grid-template-rows: auto;
-    margin-bottom: 70px;
-    padding-bottom: 70px;
+
+footer .box-1 .con-1 {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
 }
-.footer__logo-link {
-    width: 6rem;
-}
-.footer__ghost-div {
-    display: none;
-}
-.footer__heading {
-    color: #fff;
-    text-align: left;
-    letter-spacing: .02px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    font-weight: 600;
-    line-height: 24px;
-}
-.footer__link-grid {
-    grid-row-gap: 15px;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: 1fr;
-}
-.footer__link {
-    color: #fff;
-    text-align: left;
-    font-size: 16px;
+
+footer .con-1 a {
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
     line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
+
+footer ul {
+    margin: 0;
+    margin-bottom: 93px;
+}
+
+footer input {
+    background: #214E41;
+    height: 52px;
+    width: 300px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+}
+
+footer .con-1 li {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+footer .con-1 h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+footer .box-1 .con-2 .bu {
+    float: right;
+    height: 52px;
+}
+
+footer .con-2 h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer .box-1 .con-2 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:372px) {
+
+    footer .box-1 .con-2 .bu {
+        float: right;
+        height: 30px;
+    }
+
+    footer input {
+        background: #214E41;
+        height: 30px;
+        width: 100px;
+        border: 1px solid white;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+footer .box-2 .con-1 {
+    margin-top: 73px;
+}
+
+footer .box-2 .con-1 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 24px 0;
+}
+
+footer .box-2 .con-2 {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .box-2 .con-2 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
 .w-layout-grid {
     grid-row-gap: 16px;
     grid-column-gap: 16px;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
-    display: grid;
 }
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
 .container {
     width: 100%;
     max-width: 1400px;

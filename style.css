@@ -1146,6 +1146,12 @@ span {
     margin-bottom: 70px;
     padding-bottom: 70px;
 }
+.footer__logo-link {
+    width: 6rem;
+}
+.footer__ghost-div {
+    display: none;
+}
 
 .container {
     width: 100%;

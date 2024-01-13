@@ -1152,7 +1152,27 @@ span {
 .footer__ghost-div {
     display: none;
 }
-
+.footer__heading {
+    color: #fff;
+    text-align: left;
+    letter-spacing: .02px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.footer__link-grid {
+    grid-row-gap: 15px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+}
+.footer__link {
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
 .container {
     width: 100%;
     max-width: 1400px;

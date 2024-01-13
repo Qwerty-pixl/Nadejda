@@ -42,6 +42,7 @@
     }
 
 }
+
 @media screen and (max-width: 975px) {
     img {
         width: 100%;
@@ -137,6 +138,13 @@
         grid-template-rows: auto auto auto;
         grid-template-columns: 1fr;
     }
+
+    h1,
+    h2 {
+        margin-bottom: 20px;
+        font-size: 26px;
+        line-height: 34px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -171,7 +179,9 @@
     form {
         flex-direction: column;
     }
-    
+    .slips{
+        padding: 0;
+    }
 
 }
 
@@ -179,6 +189,10 @@
     .why-brella__grid {
         grid-template-rows: auto auto;
         grid-template-columns: 1fr;
+    }
+    .plan__stats-grid {
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -190,6 +204,9 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .plan__stats-grid{
+        
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -197,12 +214,13 @@
         grid-column-gap: 20px;
         grid-row-gap: 20px;
     }
+    
 
     .plan__stats-grid {
+        display: grid;
         grid-column-gap: 50px;
         grid-row-gap: 50px;
         grid-template-rows: auto;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -269,6 +287,21 @@
         grid-template-columns: 1fr;
         display: grid;
     }
+
+    .claims__grid {
+        grid-row-gap: 80px;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+    }
+
+    .cta-block__content.info-block {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 80px;
+        padding-left: 0;
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -290,7 +323,6 @@
 @media screen and (max-width: 767px) {
     .claims__device {
         background-color: #E3EEED;
-        padding: 150px 150px 0;
         position: static;
     }
 
@@ -306,8 +338,7 @@
 
 @media screen and (max-width: 479px) {
     .employers {
-        background-image: url(/img/mob_woman.jpg);
-        background-position: 0 0;
+        background-position: left;
         padding-bottom: 280px;
         display: block;
     }
@@ -331,6 +362,19 @@
     .logos__div {
         margin-bottom: 50px;
     }
+    .cta-block__content {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .slips{
+        justify-content: center;
+    }
+    .why-brella {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
 }
 
 @media screen and (max-width: 767px) {
@@ -388,6 +432,7 @@
         display: block;
         cursor: pointer;
     }
+
     .drop:hover .nav {
         display: block;
         position: absolute;
@@ -396,9 +441,14 @@
         background-color: white;
         box-shadow: 3px 3px 10px black;
     }
-    .nav, .nav-button, .language, .login {
+
+    .nav,
+    .nav-button,
+    .language,
+    .login {
         display: none;
     }
+
     .topbar .nav-btn {
         font-size: 2em;
         padding-inline: 10px;
@@ -409,3 +459,14 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .brella-brings {
+        display: none;
+    }
+}
+@media screen and (max-width: 372px){
+footer .box-1 .con-2 .bu {
+    float: right;
+    height: 30px;
+}}
